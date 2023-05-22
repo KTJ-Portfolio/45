@@ -194,12 +194,6 @@ footer {
     padding-bottom: 20px;
 }
 
-@media(max-width:800px){
-    .imgsize {
-        width:300px;
-    }
-}
-
 .hi {
     text-decoration: none;
 }
@@ -228,6 +222,12 @@ footer {
     margin-left: 5rem;
 }
 
+@media (max-width:800px){
+    .lin{
+        margin-left:-3rem;
+    }
+}
+
 .cen
  {
     text-align: center;
@@ -251,7 +251,8 @@ footer {
 }
 
 .imgsize {
-    width: 480px;
+    max-width: 480px;
+    width:auto;
     height: auto;
     padding-bottom: 0px;
     padding-top: 0px;
@@ -317,5 +318,6 @@ project senctions, everyother was seclef, then secright.
 
     .mobile-display {
         display:block;
+        object-fit: contain;
     }
 }
