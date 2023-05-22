@@ -245,18 +245,13 @@ footer {
 }
 
 .imgsize {
-    width: 480px;
+    max-width: 480px;
+    width:auto;
     height: auto;
     padding-bottom: 0px;
     padding-top: 0px;
     padding-right: 40px;
     padding-left: 40px;
-}
-
-@media(max-width:800px){
-    .imgsize {
-        width:400px;
-    }
 }
 
 .k {
@@ -317,5 +312,6 @@ project senctions, everyother was seclef, then secright.
 
     .mobile-display {
         display:block;
+        object-fit: contain;
     }
 }
